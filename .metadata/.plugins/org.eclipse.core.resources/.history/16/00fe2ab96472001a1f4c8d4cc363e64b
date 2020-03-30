@@ -1,0 +1,20 @@
+
+public class ThirdPattern {
+
+	public static void main(String[] args) {
+		int numberofrows=4;
+		for(int i=0;i<=4;i++) {
+			for (int j = numberofrows - i; j > 1; j--) {
+				System.out.print(" ");
+			}
+
+			for(int j=0;j<=4;j++) {
+			int z =(int)Math.pow(11,j);
+			System.out.println(z);
+			}
+		}
+		
+
+	}
+
+}
